@@ -21,7 +21,7 @@ jobs:
       
       - name: Install Shuttle CLI
         run: |
-          cargo install cargo-shuttle
+          cargo install cargo-shuttle --version 0.52.0 --locked --force
       
       - name: Create Shuttle.toml
         run: |
