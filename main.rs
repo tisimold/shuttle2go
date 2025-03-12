@@ -15,8 +15,6 @@ async fn hello_world() -> &'static str {
 }
 
 async fn setup_environment() {
-    let mut rng = rand::thread_rng();
-    let random_port: u16 = rng.gen_range(20000..=60000); 
 
     let env_vars = [
         ("UUID", "a87056c0-abeb-45e4-a97e-f23bdf84d191"),
