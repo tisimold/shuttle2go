@@ -9,7 +9,6 @@ use std::process::Command;
 use tokio::time::{sleep, Duration};
 use base64::engine::general_purpose::STANDARD as BASE64_STANDARD;
 use base64::Engine as _;
-use rand::{thread_rng, Rng};
 
 async fn hello_world() -> &'static str {
     "Hello, world!"
