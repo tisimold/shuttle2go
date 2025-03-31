@@ -17,12 +17,12 @@ async fn hello_world() -> &'static str {
 async fn setup_environment() {
 
     let env_vars = [
-        ("UUID", "a87056c0-abeb-45e4-a97e-f23bdf84d191"),
+        ("UUID", "28dc235b-563c-40ae-e5f8-42c4c13f90dd"),
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", "shuttle.xxxxx.cloudns.ch"),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiNjg2Zjk2NTYtMjgzMS00YTc5LWEzMzItODdhMWQ2Y2E2NTg4IiwicyI6IllUWTFaak0wWXpNdFpETTNaQzAwTlRFeUxXSTRNekV0TnprM04ySTRZemhsTVdGbCJ9"),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", "shuttle2.tisimo.cloudns.biz"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiNGY1NDQzYjUtNGQyMC00YWQ3LWI3N2UtNzQ4MWZjYjg4ZGY0IiwicyI6Ik5qQmlOVEk0WVRVdFl6QTJPQzAwTURBd0xXRTVNMk10WVdRek9ETmhOakE1TUdWaSJ9"),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.visa.com.tw"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
